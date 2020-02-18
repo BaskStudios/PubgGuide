@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pubg Rehberi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Bask Studios</string>
+    <string name="nav_header_subtitle">baskstudios@hotmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Seçenekler</string>
+
+    <string name="menu_gallery">Hakkımızda</string>
+    <string name="menu_home">Silahları Görüntüle</string>
+    <string name="menu_slideshow">Haritaları Görüntüle</string>
+    <string name="menu_share">Paylaş</string>
+    <string name="menu_send">Gönder</string>
+</resources>

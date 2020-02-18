@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_silahlar">
+
+    <fragment
+        android:id="@+id/nav_silahlar"
+        android:name="bask.app.pubgrehberi.ui.Silahlar.silahlarFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_silahlar" />
+
+    <fragment
+        android:id="@+id/nav_hakkimizda"
+        android:name="bask.app.pubgrehberi.ui.Hakkımızda.HakkimizdaFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_hakkimizda" />
+
+    <fragment
+        android:id="@+id/nav_haritalar"
+        android:name="bask.app.pubgrehberi.ui.Haritalar.HaritalarFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_haritalar" />
+
+
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="bask.app.pubgrehberi.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="bask.app.pubgrehberi.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>
